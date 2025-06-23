@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    background-color: black;
+
+
+}
+
+.clock #Watch {
+
+    border: solid 1px rgb(104, 103, 103);
+
+
+}
+.red-text {
+    color: red;
+}
+
+
+#Date {
+    color: rgb(235, 235, 230);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222222;
+    border: solid 1px rgb(104, 103, 103);
+    margin-bottom: 10px;
+}
+
+#Watch {
+
+    border: 1px solid #888888;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #222222;
+
+}
+
+#Date {
+    font-size: 3vh;
+    text-align: center;
+}
+
+#Watch ul {
+    list-style: none;
+    display: flex;
+    font-size: 10vh;
+    gap: 15px;
+}
